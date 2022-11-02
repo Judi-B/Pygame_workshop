@@ -17,7 +17,7 @@ FPS = 60
 clock = pygame.time.Clock()
 
 #Load an image
-dragon_image = pygame.image.load("C:/Users/Judy/Desktop/dragon_right.png")
+dragon_image = pygame.image.load("dragon_right.png")
 dragon_rect = dragon_image.get_rect()
 dragon_rect.center = (WINDOW_WIDTH//2, WINDOW_HEIGHT//2)
 

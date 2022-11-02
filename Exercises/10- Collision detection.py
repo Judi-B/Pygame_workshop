@@ -16,13 +16,13 @@ clock = pygame.time.Clock()
 #Set game values
 VELOCITY = 5
 #Load Sounds
-coin_sound = pygame.mixer.Sound("C:/Users/Judy\Downloads/pickupCoin.wav")
+coin_sound = pygame.mixer.Sound("pickupCoin.wav")
 #Load images
-dragon_image = pygame.image.load("C:/Users/Judy/Desktop/dragon_right.png")
+dragon_image = pygame.image.load("dragon_right.png")
 dragon_rect = dragon_image.get_rect()
 dragon_rect.topleft = (25,25)
 
-coin_image = pygame.image.load("C:/Users/Judy/Downloads/Coin-icon.png")
+coin_image = pygame.image.load("Coin-icon.png")
 coin_rect = coin_image.get_rect()
 coin_rect.center = (WINDOW_WIDTH//2 , WINDOW_HEIGHT//2)
 

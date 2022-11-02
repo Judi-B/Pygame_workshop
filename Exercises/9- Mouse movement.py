@@ -10,7 +10,7 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
 pygame.display.set_caption("Mouse Movement")
 
 #Load images
-dragon_image = pygame.image.load("C:/Users/Judy/Desktop/dragon_right.png")
+dragon_image = pygame.image.load("dragon_right.png")
 dragon_rect = dragon_image.get_rect()
 dragon_rect.topleft = (25,25)
 
